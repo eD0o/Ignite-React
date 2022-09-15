@@ -80,3 +80,12 @@ return (
   </div>
 );
 ```
+
+## 1.2 - Properties
+
+The main purpose of props in React is to provide the following component functionality:
+
+- Pass custom data/information to your React component(s).
+- Trigger state changes
+
+We can say that props are the input parameters of a component.
