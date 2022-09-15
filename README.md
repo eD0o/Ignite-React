@@ -26,5 +26,10 @@ However, to manually configure React.js to your index.html, is possible import t
 ```yarn create react-app folderProjectName --template typescript'``` *(can also be npx)* to do the same as the JavaScript example above but for TypeScript structure.
 
 ## Vite
+
 - Use by standard ESM (EcmaScript Modules), no bundling required, and also, it has an automatic compiling process.
-# 1 - 
+- The only problem is when you need to use libraries that depend too much on Webpack, but for most several cases, Vite is more recommended in general.
+
+# 1 - Fundamentals
+
+index.html will only receive inside the body tag the root div and script module of the .jsx/.tsx that has its render method
