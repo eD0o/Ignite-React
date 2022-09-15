@@ -7,7 +7,6 @@
 - Jest
 ## Topics (branches)
 
-**Chapter 2**: 
-<!-- - [npx-create-react-app](https://github.com/eD0o/learning-react-next-js/tree/section2#21---npx-create-react-app)
-- [Class Component](https://github.com/eD0o/learning-react-next-js/tree/section2#class-component)
-- [Observations](https://github.com/eD0o/learning-react-next-js/tree/section2#observations) -->
+**Project 1**: 
+[React Installation](https://github.com/eD0o/Ignite-React/tree/project1#0---react-installation)
+[Fundamentals](https://github.com/eD0o/Ignite-React/tree/project1#1---fundamentals)
