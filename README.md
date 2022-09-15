@@ -43,10 +43,9 @@ However, to manually configure React.js to your index.html, is possible import t
 
 # 1 - Fundamentals
 
-- index.html will only receive inside the body tag the root div and script module of the .jsx/.tsx that has its render method
-
 ## 1.1 - Components
 
+- index.html will only receive inside the body tag the root div and script module of the .jsx/.tsx that has its render method
 - Hugely used to fragment an application in React, in order to be **easier to maintain, reuse and scale**.
 - A component in React is a function that returns HTML (or JSX = JavaScript + XML (a kind of HTML)).
   > Thus, all components must have an .jsx or .tsx extension.
