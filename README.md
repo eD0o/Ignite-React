@@ -91,3 +91,11 @@ The main purpose of props in React is to provide the following component functio
 We can say that props are the input parameters of a component.
 
 <!-- I SHOULD PUT SOME EXAMPLE HERE -->
+
+## 2 - Starting Project
+
+The first project of the course will be the **Ignite Feed**, that is a micro platform of Post and Comments.
+
+![](https://i.imgur.com/EpTVGiP.png)
+
+> [Link of Figma](https://www.figma.com/community/file/1113573231685349036)

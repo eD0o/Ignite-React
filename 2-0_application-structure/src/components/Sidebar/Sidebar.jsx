@@ -16,7 +16,7 @@ export function Sidebar() {
           src="https://github.com/eD0o.png"
         />
 
-        <strong>Tharlys Alves</strong>
+        <strong>Eduardo</strong>
         <span>Web Developer</span>
       </div>
 

@@ -12,7 +12,7 @@ export function Post(props) {
             src="https://github.com/eD0o.png"
           />
           <div className={styles.authorInfo}>
-            <strong>Tharlys Alves</strong>
+            <strong>Eduardo</strong>
             <span>Web Developer</span>
           </div>
         </div>
