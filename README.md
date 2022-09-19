@@ -102,6 +102,6 @@ The first project of the course will be the **Ignite Feed**, that is a micro pla
 
 <!-- GIVE INFO ABOUT CSS MODULES -->
 
-## 3 - React principles
+## 3 - React Principles
 
 - `.map()` is usually a better choice than `.forEach()` to iterate data, precisely to be able to return info or other components as response.
