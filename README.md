@@ -99,3 +99,9 @@ The first project of the course will be the **Ignite Feed**, that is a micro pla
 ![](https://i.imgur.com/EpTVGiP.png)
 
 > [Link of Figma](https://www.figma.com/community/file/1113573231685349036)
+
+<!-- GIVE INFO ABOUT CSS MODULES -->
+
+## 3 - React principles
+
+- `.map()` is usually a better choice than `.forEach()` to iterate data, precisely to be able to return info or other components as response.
