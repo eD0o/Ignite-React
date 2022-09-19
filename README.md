@@ -37,7 +37,7 @@ However, to manually configure React.js to your index.html, is possible import t
 
 ## Vite
 
-- Use by standard ESM (EcmaScript Modules), no bundling required, and also, it has an automatic compiling process.
+- Uses by default ESM (EcmaScript Modules), no requires bundling and has an automatic compiling process.
 - `npm create vite@latest` or `yarn create vite`
 - The only problem is when you need to use libraries that depend too much on Webpack, but for most several cases, Vite is more recommended in general.
 
@@ -89,3 +89,5 @@ The main purpose of props in React is to provide the following component functio
 - Trigger state changes
 
 We can say that props are the input parameters of a component.
+
+<!-- I SHOULD PUT SOME EXAMPLE HERE -->
