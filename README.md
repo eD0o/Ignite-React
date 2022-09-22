@@ -90,9 +90,35 @@ The main purpose of props in React is to provide the following component functio
 
 We can say that props are the input parameters of a component.
 
-<!-- I SHOULD PUT SOME EXAMPLE HERE -->
+Example:
 
-## 2 - Starting Project
+```javascript
+function Welcome(props) {
+  return (
+    <>
+      {props.name.map((item) => {
+        <p>Hello, {name}</p>;
+      })}
+    </>
+  );
+}
+
+function App() {
+  return (
+    <div>
+      <Welcome name="Eduardo" />
+      <Welcome name="Arthur" />
+      <Welcome name="John" />
+    </div>
+  );
+}
+```
+
+- `.map()` is usually a better choice than `.forEach()` to iterate data, precisely to be able to return info or other components as response.
+
+> [Example 1 using props with desestructuring](https://github.com/eD0o/Ignite-React/blob/project1/3-1and2_iterating-on-jsx/src/components/Post/Post.jsx) > [Example 2 using props with desestructuring](https://github.com/eD0o/Ignite-React/blob/project1/3-3_useState/src/components/Post/Post.jsx)
+
+# 2 - Starting and Structuring Project
 
 The first project of the course will be the **Ignite Feed**, that is a micro platform of Post and Comments.
 
@@ -100,8 +126,67 @@ The first project of the course will be the **Ignite Feed**, that is a micro pla
 
 > [Link of Figma](https://www.figma.com/community/file/1113573231685349036)
 
-<!-- GIVE INFO ABOUT CSS MODULES -->
+## 2.1 - CSS Modules
 
-## 3 - React Principles
+Useful for modular and reusable CSS, also:
 
-- `.map()` is usually a better choice than `.forEach()` to iterate data, precisely to be able to return info or other components as response.
+- Avoid conflicts.
+- Explicit dependencies.
+- No global scope.
+
+To use it, just import the file named with the structure as `Style.module.css` and use the syntax below with the name of the class as wished:
+
+```javascript
+import styles from "./Header.module.css";
+
+import igniteLogo from "../../assets/ignite_logo.svg";
+
+export function Header() {
+  return (
+    <header className={styles.header}>
+      <img src={igniteLogo} alt="Logo Ignite" />
+      <strong>Ignite Feed</strong>
+    </header>
+  );
+}
+```
+
+For local class names camelCase naming is recommended, but not enforced.
+
+> This is recommended because the common alternative, kebab-casing may cause unexpected behavior when trying to access `style.class-name` as a dot notation. You can still work around kebab-case with bracket notation (eg. `style['class-name']`) but `style.className` is cleaner.
+
+> If possible, always use Sass, Sass has features that don't exist in CSS yet like nesting, mixins, inheritance, and other nifty goodies that help you write robust, maintainable CSS.
+
+# 3 - React Principles
+
+## 3.1 - Hook: useState
+
+The React useState _Hook_ allows us to track state in a function component.
+State generally refers to data or properties in variables that need to be tracking in an application.
+
+We initialize our state by calling useState in our function component.
+
+useState accepts an initial state and returns two values:
+1 - The current state.
+2 - A function that updates the state.
+
+```javascript
+import React, { useState } from "react";
+
+function Example() {
+  //declaring the useState with its structure and a default/initial value
+  const [count, setCount] = useState(0);
+
+  //function to manage both click event and the state
+  const handleClick = () =>{
+    setCount(count + 1)
+  }
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={handleClick}>Click me</button>
+    </div>
+  );
+}
+```
