@@ -116,7 +116,7 @@ function App() {
 
 - `.map()` is usually a better choice than `.forEach()` to iterate data, precisely to be able to return info or other components as response.
 
-> [Example 1 using props with desestructuring](https://github.com/eD0o/Ignite-React/blob/project1/3-1and2_iterating-on-jsx/src/components/Post/Post.jsx) > [Example 2 using props with desestructuring](https://github.com/eD0o/Ignite-React/blob/project1/3-3_useState/src/components/Post/Post.jsx)
+> [Example 1 using props with desestructuring](https://github.com/eD0o/Ignite-React/blob/project1/3-1and2_iterating-on-jsx/src/components/Post/Post.jsx) / [Example 2 using props with desestructuring](https://github.com/eD0o/Ignite-React/blob/project1/3-3_useState/src/components/Post/Post.jsx)
 
 # 2 - Starting and Structuring Project
 
