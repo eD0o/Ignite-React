@@ -190,3 +190,5 @@ function Example() {
   );
 }
 ```
+
+<!-- PROGRAMACAO IMPERATIVA VS DECLARATIVA -->
